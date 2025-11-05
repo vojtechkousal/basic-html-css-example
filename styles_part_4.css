@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: gray;
+}
+
+nav {
+    text-align: center;
+    background-color: lightgray;
+}
+
+nav ul {
+    list-style-position: inside;
+    background-color: transparent;
+    padding: 0;
+}
+main{
+    background-color: grey;
+    padding: 20px;
+    height: fit-content;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    padding: 20px;
+    border: 5px solid blue;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding: 20px;
+    border: 5px solid blue;
+    background-color: lightgrey;
+}
+
+.pictures {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.picture {
+    display: inline-block;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+footer {
+  text-align: center; 
+  background-color: lightgray; 
+  height: 100px;
+}
